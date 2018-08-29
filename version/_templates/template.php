@@ -310,7 +310,7 @@ $no_text_pages = ['/search.html', '/', '/registration.html', '/activation.html',
 
 				<div class="col-xs-12">
 
-					<? if ($h1) { ?> <h1><?= $h1 ?></h1><? } ?>
+					<!-- <? if ($h1) { ?> <h1><?//= $h1 ?></h1><? } ?> -->
 
 
 
