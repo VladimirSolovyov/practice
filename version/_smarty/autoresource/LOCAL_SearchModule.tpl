@@ -1,0 +1,1 @@
+{%include file=$SETTINGS.smarty_libs_dir|cat:"/autoresource/SearchModule.tpl"%}

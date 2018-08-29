@@ -1,0 +1,1 @@
+<div id='main_inner_div' style='width: 100%; text-align: center; margin-top:40px;'><img src='/_sysimg/webservice/ajax-loader-big.gif' alt='<?= $_interface->MSG[' Template']['getInfoFromDB'] ?>' title='<?= $_interface->MSG['Template']['getInfoFromDB'] ?>'/><br/><br/><?= $_interface->MSG['Template']['getInfoFromDB'] ?></div>
