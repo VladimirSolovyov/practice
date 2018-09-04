@@ -93,17 +93,18 @@ $no_text_pages = ['/search.html', '/', '/registration.html', '/activation.html',
 				<div class="col-xs-12 header__wrapper">
 
 					<div class="header__contact-wrapper" style="padding: 4px 10px;">
-
-						<div class="contact-item contact-item_icon_phone header__contact">
-							<a style="text-align: center; display: block;" href="tel:+74923248917">+7-49-232-4-89-17</a>
-							<span style="display: block; font-size: 12px; text-align: center;">Многоканальный телефон</span>
+						<div style="width: 156px;">
+							<div class="contact-item contact-item_icon_phone header__contact">
+								<a href="tel:<? ContentPart('contact_phone'); ?>"><? ContentPart('contact_phone'); ?></a>
+							</div>
+							
+							<div class="contact-item contact-item_icon_phone header__contact" style="display: block;">
+								<a href="tel:+74923248859">+7-49-232-4-88-59</a>
+							</div>
 						</div>
-						
-						<div class="contact-item contact-item_icon_phone header__contact">
-							<a href="tel:<? ContentPart('contact_phone'); ?>"><? ContentPart('contact_phone'); ?></a>
-							<span style="display: block; font-size: 12px; text-align: center;">Отдел иномарок</span>
+						<div style="padding-right: 20px;">
+							<span style="display: block;font-size: 12px;color: #999;text-align: center;line-height: 35px;">Телефоны для связи</span>
 						</div>
-
 						<!-- <div class="contact-item contact-item_icon_skype header__contact"><? //ContentPart('contact_skype'); ?></div>-->
 
 						<div class="contact-item contact-item_icon_address header__contact" style="line-height: 32px; background-position: left top 6px;">
