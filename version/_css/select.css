@@ -1,0 +1,66 @@
+	
+	div.combobox_body {
+		border: 1px solid #A0A0A0;
+		background: #FFFFFF;
+		cursor: default;		
+	}
+		
+	div.combobox_body_over {
+		border: 1px solid #990000;
+		background: #FFFFFF;
+		cursor: default;
+	}
+	
+	div.combobox_body_over td.content {
+		padding-left: 2px;
+	}	
+	
+	div.combobox_body_over td.arrow {
+		background: url(/_sysimg/select/arrow_over.gif);
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 13px;
+		height: 14px;
+		padding: 1px;
+	}
+	
+	div.combobox_body td.content {
+		padding-left: 2px;
+	}
+		
+	div.combobox_body td.arrow {
+		background: url(/_sysimg/select/arrow.gif);
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 13px;
+		height: 14px;
+		padding: 1px;
+	}
+	
+	div.combobox_values {
+		overflow: auto;
+		border: 1px solid #4D7286;
+		background: #FFFFFF;
+		display: none;
+		position: absolute;
+	}
+	
+	div.combobox_values_show {
+		overflow: auto;
+		border: 1px solid #101010;
+		background: #FFFFFF;
+		position: absolute;
+		z-index: 999;
+		width: 150%;
+	}
+	
+	div.combobox_values_show td {
+		cursor: default;
+		padding: 2px
+	}
+	
+	div.combobox_values_show td.over {
+		background: #909090;
+		color: #FFFFFF;
+		cursor: default;
+	}

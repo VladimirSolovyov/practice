@@ -1,0 +1,80 @@
+.auth-input__cbx {
+
+	display: none;
+
+}
+
+.auth-input input[type=checkbox]+label {
+
+	display: block;
+
+	vertical-align: middle;
+
+	margin-left: 25px;
+
+}
+
+.search-col__term {
+ width: 100px !important;
+}
+
+
+/*Для внедрения нового логотипа  сдвинул размеры*/
+@media only screen and (min-width: 1024px){
+	.header-nav__img, .header-nav__picture {
+    	max-height: 100px;
+    	margin-top: -10px;
+		margin-left: 40px;
+	}
+}
+
+/*Возвращаем старый привычный фон*/
+
+body {
+	background: url(../images/template/background-min.jpg) 70% 0% repeat-x;
+	/*Новогодний фон
+	background: url(../images/template/happynewyear.jpg) 50% 0%; */
+}
+
+.news-list, #main_inner_wrapper {
+	background: white;
+}
+
+/*Стили для социальных сетей*/
+
+.footer__social {
+	max-width: 100%;
+	margin-bottom:  20px;
+}
+
+.social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background: #bdc3c7;
+	vertical-align: middle;
+	background: #bdc3c7 url("../images/template/social.png") no-repeat;
+	border: 1px solid white;
+    border-radius: 5px;
+}
+
+.social-vk {
+    background-color: #4e4e4e;
+    background-position: 0 5px;
+}
+
+.social-ok {
+    background-color: #4e4e4e;
+    background-position: -92px 3px;
+}
+
+.social-instagram {
+    background-color: #4e4e4e;
+    background-position: -50px 5px;
+}
+
+ul.breadcrumbs li:nth-child(2).breadcrumbs__item{    
+    display: none;
+}
+

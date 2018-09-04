@@ -1,0 +1,72 @@
+#catalog-to-head .to-way-area {
+	line-height: 36px;
+	padding: 0 10px 0 0;
+}
+
+#catalog-to-head .way-item-first {
+	padding: 0 10px;
+}
+
+#catalog-to-head .way-item {
+	background: url('/images/li_img.png') no-repeat scroll left center transparent;
+	padding: 0 10px;
+}
+
+#catalog-to-head h1 {
+	border: none;
+}
+
+#catalog-to-head table td {
+	border-bottom: 1px solid #DDDDDD;
+}
+
+#catalog-to li {
+	background: transparent;
+	display: block;
+	min-width: 290px;
+	line-height: 36px;
+	border-bottom: #dddddd 1px solid;
+}
+
+#catalog-to li a {
+	background-position: left center;
+	background-repeat: no-repeat;
+	display: block;
+	min-width: 290px;
+	line-height: 36px;
+	padding: 0 10px 0 10px;
+}
+
+ #catalogs.flc {
+	padding-top: 10px;
+}
+
+ .item .image-accessories {
+	border: 1px solid #DDDDDD;
+	background: none repeat scroll 0 0 #ffffff;
+	text-align: center;
+}
+
+ .item .noimg {
+	border: 1px solid #DDDDDD;
+	background: none repeat scroll 0 0 #ffffff;
+	text-align: center;
+}
+
+ .item input[type="button"] {
+	height: 22px;
+	line-height: 22px;
+	padding: 0px 4px 4px 4px;
+}
+
+#catalogs li a {
+    display: block;
+    line-height: 36px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 0px 10px 0px 45px;
+}
+
+#catalogs li  {
+	list-style: none;
+}

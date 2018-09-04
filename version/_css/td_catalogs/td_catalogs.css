@@ -1,0 +1,63 @@
+#td_catalogs {
+	padding-bottom: 20px;
+}
+#td_form {
+	position: relative;
+}
+#td_image {
+	text-align: center;
+	width: 200px;
+	position: absolute;
+}
+#td_fields {
+	margin-left: 200px;
+}
+.td_field.active {
+	background: url('http://s.exist.ru/img/pointer-hand.png') no-repeat 360px 2px;
+}
+.td_field:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+.td_field_caption {
+	float: left;
+	width: 100px;
+	line-height: 26px;
+}
+.td_field_input {
+	margin-left: 100px;
+}
+.pointer {
+	margin-left: 5px;
+	display: none;
+}
+.pointer.active {
+	display: inline;
+}
+#ul_td_links img {
+	max-height: 30px;
+	max-width: 30px;
+}
+#ul_td_links li {
+	line-height: 30px;
+	list-style: none;
+	background: none;
+	width: 40%;
+	float: left;
+}
+.td_cat_image {
+	width: 35px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 5px;
+}
+#ul_td_links {
+	overflow: hidden;
+	margin-top: 20px;
+}
+#td_links {
+	padding-top: 20px;
+}

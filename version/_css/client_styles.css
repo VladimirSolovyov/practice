@@ -1,0 +1,93 @@
+.auth-input__cbx {
+
+	display: none;
+
+}
+
+.auth-input input[type=checkbox]+label {
+
+	display: block;
+
+	vertical-align: middle;
+
+	margin-left: 25px;
+
+}
+
+.search-col__term {
+ width: 100px !important;
+}
+
+
+/*Для внедрения нового логотипа  сдвинул размеры*/
+@media only screen and (min-width: 1024px){
+	.header-nav__img, .header-nav__picture {
+    	max-height: 100px;
+    	margin-top: -10px;
+		margin-left: 40px;
+	}
+}
+
+/*Возвращаем старый привычный фон*/
+
+body {
+	background: url(../images/template/background-min.jpg) 70% 0% repeat-x;
+	/*Новогодний фон
+	background: url(../images/template/happynewyear.jpg) 50% 0%; */
+}
+
+.news-list, #main_inner_wrapper {
+	background: white;
+}
+
+/*Стили для социальных сетей*/
+
+.footer__social {
+	max-width: 100%;
+	margin-bottom:  20px;
+}
+
+.social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background: #bdc3c7;
+	vertical-align: middle;
+	background: #bdc3c7 url("../images/template/social.png") no-repeat;
+	border: 1px solid white;
+    border-radius: 5px;
+}
+
+.social-vk {
+    background-color: #4e4e4e;
+    background-position: 0 5px;
+}
+
+.social-ok {
+    background-color: #4e4e4e;
+    background-position: -92px 3px;
+}
+
+.social-instagram {
+    background-color: #4e4e4e;
+    background-position: -50px 5px;
+}
+
+ul.breadcrumbs li:nth-child(2).breadcrumbs__item{    
+    display: none;
+}
+@media (min-width: 768px) {
+	.stock-info-office__single-photo {
+		width:100%;
+	}
+}
+
+/*Изменение цвета иконок.*/
+.contact-item_icon_phone {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%230532a7'%3E%3Cpath d='M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z'/%3E%3C/svg%3E")
+}
+
+.contact-item_icon_address {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%230532a7'%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z'/%3E%3C/svg%3E");
+}

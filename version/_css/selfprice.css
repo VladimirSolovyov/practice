@@ -1,0 +1,247 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18.08.2015, 18:59:48
+    Author     : d.lanec
+*/
+
+.progress
+{
+	background-color: #e2fbec;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	height: 20px;
+	margin-bottom: 4px;
+	margin-top: 4px;
+	overflow: hidden;
+	display: none;
+	webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.progress-bar
+{
+	background-color: #428bca;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+	color: #fff;
+	float: left;
+	font-size: 12px;
+	height: 100%;
+	line-height: 20px;
+	o-transition: width .6s ease;
+	text-align: center;
+	transition: width .6s ease;
+	webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+	webkit-transition: width .6s ease;
+	width: 0;
+}
+.progress-striped .progress-bar,.progress-bar-striped
+{
+	background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-size: 40px 40px;
+	webkit-background-size: 40px 40px;
+}
+.progress.active .progress-bar,.progress-bar.active
+{
+	animation: progress-bar-stripes 2s linear infinite;
+	o-animation: progress-bar-stripes 2s linear infinite;
+	webkit-animation: progress-bar-stripes 2s linear infinite;
+}
+.progress-bar[aria-valuenow="1"],.progress-bar[aria-valuenow="2"]
+{
+	min-width: 30px;
+}
+.progress-bar[aria-valuenow="0"]
+{
+	background-color: transparent;
+	background-image: none;
+	box-shadow: none;
+	color: #777;
+	min-width: 30px;
+	webkit-box-shadow: none;
+}
+.progress-bar-success
+{
+	background-color: #5cb85c;
+}
+.progress-striped .progress-bar-success
+{
+	background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+}
+.progress-bar-info
+{
+	background-color: #5bc0de;
+}
+.progress-striped .progress-bar-info
+{
+	background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+}
+.progress-bar-warning
+{
+	background-color: #f0ad4e;
+}
+.progress-striped .progress-bar-warning
+{
+	background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+}
+.progress-bar-danger
+{
+	background-color: #d9534f;
+}
+.progress-striped .progress-bar-danger
+{
+	background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+}
+
+
+
+
+
+/*
+ * jQuery File Upload Plugin CSS 1.3.0
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+	margin-top: 4px;
+    padding: 2px 6px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.fileinput-button input {
+    cursor: pointer;
+    direction: ltr;
+    font-size: 200px;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.btn-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+}
+
+/*табы для формы*/
+.tabclosed{
+	display: none;
+}
+.fixW{
+	width: 230px;
+}
+form[name=self_pricelist] td{
+	padding: 4px;
+	vertical-align: top;
+}
+
+/*Процесс выполнения задачи*/
+.taskshedule{
+	background-color: #fff;
+    border: 1px solid #999;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 25px;
+    padding: 3px;
+}
+.taskprogress{
+	background-color: #FDFFF2;
+	font-size: 10px;
+	display: inline-block;
+    line-height: 15px;
+	border-left: 0 solid #9ed79f;
+}
+
+.lastupdate {
+  background: #e34432 none repeat scroll 0 0;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-family: Times New Roman;
+    font-size: 11px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 18px;
+    min-width: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align: right;
+}
+
+.self-icon{
+/*   background: #e34432 none repeat scroll 0 0;*/
+    border: 1px solid #89d3fb;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px;
+	margin-right: 2px;
+	
+
+}
+
+a:hover .self-icon{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+37,9fd8ef+70,a9d4e5+100 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+12,fdffff+12,e6f8fd+30,c8eefb+54,bee4f8+75,b1d8f5+100;Blue+Pipe+%232 */
+	background: #e1ffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e1ffff), color-stop(7%,#e1ffff), color-stop(12%,#e1ffff), color-stop(12%,#fdffff), color-stop(30%,#e6f8fd), color-stop(54%,#c8eefb), color-stop(75%,#bee4f8), color-stop(100%,#b1d8f5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 ); /* IE6-9 */
+	
+}
+
+
+.ui-tooltip.selfprice-tooltip{
+	background: #FDFFF2 none repeat scroll 0 0;
+	font-size: 12px;
+}
+
+img.tooltip{
+	margin-left: 5px;
+	float: right; 
+}
+
+#taskshedule_conteiner{
+	margin-bottom: 5px;
+}
+
+input[name=prl_file]{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+}

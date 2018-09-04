@@ -1,0 +1,19 @@
+.top-line, .header, .footer, .content-inner__main-top {
+	display: none !important;
+}
+
+h1 {
+	font-size: 30pt !important;
+}
+
+.office-info {
+	font-size: 20pt;
+}
+
+.office-info__subtitle {
+	font-size: 25pt !important;
+}
+
+.manager-list__name {
+	margin: 0 0 10px 0;
+}

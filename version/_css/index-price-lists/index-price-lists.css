@@ -1,0 +1,30 @@
+#content_inner .box-reference li {
+	float: left;
+	width: 30%;
+	padding: 3px 10px;
+	background-position-y: 9px;
+}
+#content_inner .pricelists td {
+	padding: 5px 10px;
+	padding-left: 0px;
+}
+.box-reference {
+	overflow: hidden;
+}
+.product {
+	overflow: hidden;
+	padding-left: 20px;
+}
+.product .leftside {
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+.product.point {
+	border: #faa826 1px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(/_css/PIE.htc);
+	padding: 10px 20px 8px 20px;
+	margin: 10px 0;
+}
