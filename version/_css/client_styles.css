@@ -91,3 +91,26 @@ ul.breadcrumbs li:nth-child(2).breadcrumbs__item{
 .contact-item_icon_address {
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%230532a7'%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z'/%3E%3C/svg%3E");
 }
+
+.header-catalog__panel {
+	background-color: #0532a7;
+}
+.search-form__container {
+	background-color: #020186;
+}
+
+.search-form_focus .search-form__container{
+	box-shadow: inset 0 0 0 2px #4352af;
+}
+
+.order-amount:active, .order-amount:focus, .order-amount:hover{
+	background-color: #020186;
+}
+
+.order-amount { 
+	border-right-color:#020186;
+	border-left-color:#020186;
+}
+.list-catalog-tile__icon {
+	background-color: #0532a7;
+}
