@@ -124,3 +124,8 @@ ul.breadcrumbs li:nth-child(2).breadcrumbs__item{
   .border_rad_header {
 	border-right: 2px solid #0532a7;
   }
+
+  /*Фикс результатов поиска перенести в основной файл стиля*/
+  .search-col__action input[type=text] {
+	  color:initial;
+  }
