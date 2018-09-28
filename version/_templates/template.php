@@ -93,7 +93,7 @@ $no_text_pages = ['/search.html', '/', '/registration.html', '/activation.html',
 				<div class="col-xs-12 header__wrapper">
 
 					<div class="header__contact-wrapper" style="padding: 4px 10px;">
-						<div class="grow" style="background-image: url(/images/template/callYou.png);width: 92px;height: 39px;margin-top: 13px;margin-right: 15px;"></div>
+						<div class="grow" style="background-image: url(/images/template/callYou.png);width: 92px;height: 39px;margin-top: 13px;margin-right: 15px; display:none;"></div>
 						<div style="padding-top: 10px;width: 156px;line-height:28px;">
 							<div class="contact-item contact-item_icon_phone header__contact">
 								<a href="tel:<? ContentPart('contact_phone'); ?>"><? ContentPart('contact_phone'); ?></a>
