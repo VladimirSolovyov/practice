@@ -129,3 +129,11 @@ ul.breadcrumbs li:nth-child(2).breadcrumbs__item{
   .search-col__action input[type=text] {
 	  color:initial;
   }
+  .header {
+	box-shadow: 0 2px 4px rgba(17, 13, 214, 0), 0 4px 4px rgba(43, 42, 42, 0.24);
+    background-color: #fff;
+  }
+
+  .content-page ul li::before {
+	background-color: #0732a7;  
+  }

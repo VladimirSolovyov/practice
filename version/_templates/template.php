@@ -92,31 +92,25 @@ $no_text_pages = ['/search.html', '/', '/registration.html', '/activation.html',
 
 				<div class="col-xs-12 header__wrapper">
 
-					<div class="header__contact-wrapper" style="padding: 4px 10px;">
-						<div class="grow" style="background-image: url(/images/template/callYou.png);width: 92px;height: 39px;margin-top: 13px;margin-right: 15px; display:none;"></div>
-						<div style="padding-top: 10px;width: 156px;line-height:28px;">
-							<div class="contact-item contact-item_icon_phone header__contact">
-								<a href="tel:<? ContentPart('contact_phone'); ?>"><? ContentPart('contact_phone'); ?></a>
-							</div>
-							
-							<div class="contact-item contact-item_icon_phone header__contact" style="display: block;">
-								<a href="tel:+74923248859">+7-49-232-4-88-59</a>
-							</div>
-						</div>
-						<div style="padding-top: 10px;padding-right: 10px;" class="border_rad_header">
-							<span style="display: block;font-size: 12px;color: #999;text-align: center;line-height: 48px;">Телефоны для связи</span>
-						</div>
-						<!-- <div class="contact-item contact-item_icon_skype header__contact"><? //ContentPart('contact_skype'); ?></div>-->
-
-						<div class="contact-item contact-item_icon_address header__contact border_rad_header" style="line-height: 30px;background-position: left top 20px;white-space: normal;width: 285px;padding-top:5px; padding-right:10px; margin-right: 20px;">
+					<div class="header__contact-wrapper" style="padding: 4px 10px; text-align: right;">
+						<!-- <div class="grow" style="background-image: url(/images/template/callYou.png);width: 92px;height: 39px;margin-top: 13px;margin-right: 15px; display:none;"></div> -->
+						<div class="contact-item contact-item_icon_address header__contact" style="line-height: 40px; background-position: left top 10px;">
 							<a target="blank" href="https://yandex.ru/maps/10664/kovrov/?ll=41.308888%2C56.374485&z=19&mode=search&ol=biz&oid=1221453937"><? ContentPart('contact_address'); ?></a>
 						</div>
-						<div class="contact-item  header__contact border_rad_header" style="padding-top: 10px; padding-left: 10px; padding-right: 20px; margin-right: 20px;">
+						<div class="contact-item  header__contact" style="background-position: left top; background-image: url(/images/passage-of-time.png);">
 							<div>Пн.-Пт.: 9:00 - 18:45</div>
 							<div>Сб.: 9:00 - 17:00</div>
 							<div>Вс.: 9:00 - 15:00</div>
 						</div>
-						<div style="background-image: url(/images/template/garant202.png);width: 105px;height: 80px;margin-left: 20px;"></div>
+						<div>
+							<div class="contact-item contact-item_icon_phone header__contact">
+								<a style="color: #0732a7; font-weight: bold; font-size: 20px;" href="tel:<? ContentPart('contact_phone'); ?>"><? ContentPart('contact_phone'); ?></a>
+							</div>							
+							<div class="contact-item contact-item_icon_phone header__contact" style="display: block;">
+								<a style="color: #0732a7; font-weight: bold; font-size: 20px;" href="tel:+74923248859">+7-49-232-4-88-59</a>
+							</div>
+						</div>
+						<!-- <div style="background-image: url(/images/template/garant202.png);width: 105px;height: 80px;margin-left: 20px;"></div> -->
 					</div>
 
 					<div class="header__right-wrapper">
@@ -141,7 +135,7 @@ $no_text_pages = ['/search.html', '/', '/registration.html', '/activation.html',
 
 
 
-	<div class="header-nav">
+	<div class="header-nav" style="padding:25px 0;">
 
 		<div class="container">
 
