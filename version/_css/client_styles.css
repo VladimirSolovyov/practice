@@ -137,3 +137,21 @@ ul.breadcrumbs li:nth-child(2).breadcrumbs__item{
   .content-page ul li::before {
 	background-color: #0732a7;  
   }
+
+  /*main menu change color*/
+
+  .grid-card__item:hover, .top-nav__item--active, .top-nav__item:hover {
+    	border-color: #0732a7;
+	}
+
+	a:active, a:focus, a:hover, .top-nav__item--active .top-nav__link, .top-nav__link:hover, .menu-catalog-sub__link:hover, .menu-catalog__link:hover, .accordion-tabs__link--active {
+    	color:#0732a7;
+	}
+
+	.top-menu-sub {
+    	border-top: 3px solid #0732a7;
+	}
+
+	.owl-dot.active {
+		background: #0732a7
+	}

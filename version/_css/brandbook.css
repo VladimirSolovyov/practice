@@ -1,0 +1,55 @@
+body{
+    color: #333;
+    color: #555;
+    color: #666;
+    color: #999;
+
+    color: #fff;
+    border: 1px solid #f0f0f0;
+    background-color: #f5f5f5;
+    background: #f7f7f7;
+    background-color: #f8f8f8;
+    background-color: #fdfdfd;
+
+
+    color: #a42121;
+    color: #c62828;/*a:active, a:focus, a:hover; #default-view .loader-circle*/
+    color: #c62821;
+    border-bottom: 2px solid #d41a31;
+    color: #e12519;
+    background-color: #f44336;
+    
+    
+    border: 2px solid #000;
+    color: #292929; /*background-color*/
+    fill: #262626;/*color*/
+    box-shadow: 0 0 0 1px #8c8c8c inset; /*#default-view .input:hover*/
+    color: #8c8c8c;
+    color: #665454;
+    background-color: #585656;
+    background-color: #404040;
+    color: #777;
+    border-top: 1px solid #eee;
+    border: 1px solid #e0e0e0;
+    border-color: #e5e5e5;
+    color: #bfbfbf;
+    color: #aaa;     
+    
+
+    color: #67b16a;
+    border: 1px solid #593333!important;
+    /*Наши цвета*/
+    color: #0732a7    
+}
+
+.top-nav__item--active, .top-nav__item:hover{
+    border-color: #0732a7;
+}
+
+.top-nav__item--active .top-nav__link, .top-nav__link:hover{
+    color:#0732a7;
+}
+
+.top-menu-sub {
+    border-top: 3px solid #0732a7;
+}
