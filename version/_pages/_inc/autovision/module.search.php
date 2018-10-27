@@ -1,0 +1,1 @@
+<? require_once(__spellPATH("USER_CLASS:/autoresource/autoshop/class.LOCAL_SearchModule.php"));
