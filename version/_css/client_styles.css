@@ -155,3 +155,21 @@ ul.breadcrumbs li:nth-child(2).breadcrumbs__item{
 	.owl-dot.active {
 		background: #0732a7
 	}
+
+	/*Каталоги ClientTileLinks*/
+
+	 /* .list-catalog-tile__item_long_tablet {
+		 width: calc(33.3% - 15px); 
+	}  */
+	
+	@media only screen and (min-width:1024px) {
+		.list-catalog-tile__item, .list-catalog-tile__item_long_tablet {
+		padding: 20px;
+		width: calc(33.3% - 15px);
+	}
+}
+	.menu-catalog-sub {
+		max-height: 800px;
+		overflow: auto;
+		min-width: 250px;
+	}
