@@ -1,10 +1,9 @@
 <table border="0" align="center" width="100%">
 <tr><td>
-<h2><?=trp('Бланк заказа № %s от %s', 'OrderDocument', substr(stristr($DATA['document_code'], '/', true), 3), $DATA['doc_rus_month'] ? $DATA['doc_day'] .' ' . $DATA['doc_rus_month'] . ' ' . $DATA['doc_bigYear'] : $DATA['doc_day'] .'.' . $DATA['doc_month'] . '.' . $DATA['doc_bigYear'])?></h2>
+<img src="../images/template/logo.png" width="140" height="100" style="display: inline-block; float: left;">
+<h2 style="padding-top: 40px;"><?=trp('Бланк заказа № %s от %s', 'OrderDocument', substr(stristr($DATA['document_code'], '/', true), 3), $DATA['doc_rus_month'] ? $DATA['doc_day'] .' ' . $DATA['doc_rus_month'] . ' ' . $DATA['doc_bigYear'] : $DATA['doc_day'] .'.' . $DATA['doc_month'] . '.' . $DATA['doc_bigYear'])?></h2>
 <table border="0" width="100%">
-
 	<tr><td width="50%">
-
 			<p>
 				<b><?=$DATA['bsp_doc_name']?></b><br/>
 				<b><?=truc('Адрес', 'Forms')?>:</b> <?=$DATA['bsp_post_address']?><br/>
@@ -53,7 +52,7 @@
 
 <hr hoshade="noshade" size="1"/>
 
-<table border="0" width="100%">
+<table border="0" width="100%" style="display:none;">
 	<tr><td width="50%">
 
 			<strong><?=truc('Заказчик', 'Forms')?>:</strong>&nbsp;
@@ -242,28 +241,28 @@ foreach($arOptions as $label => $option) {
 	<? } ?>
 
 	<tr>
-		<td colspan="9" align="right">
-			<strong><?=truc('Всего к оплате', 'reports')?>:</strong>
-		</td><td align="right">
-			<?=number_format($DATA['ord_summ_in_country'], 2, '.', ' ')?>
+		<td colspan="4" align="right">
+			<strong><?=truc('Общая сумма заказа', 'reports')?>:</strong>
+		</td><td colspan="4" align="center">
+			<strong><?=number_format($DATA['ord_summ_in_country'], 2, '.', ' ')?></strong>
 		</td>
 	</tr>
-
-</table>
-
-<br/>
-<table border="1" width="100%" bordercolor="#000000" cellpadding="5" cellspacing="0">
-	<tr><td width="50%">
-
+	<tr>
+	<td colspan="4" align="right">
 			<strong><?=truc('Оплачено', 'Forms')?>, <?=$DATA['html_sign']?>:</strong>
-			&nbsp;<?=number_format($DATA['ord_summ_paid_in_country'], 2, '.', ' ')?>
-
-		</td><td width="50%">
-
+	</td>
+	<td colspan="4" align="center">
+			<strong><?=number_format($DATA['ord_summ_paid_in_country'], 2, '.', ' ')?></strong>
+	</td>
+	</tr>
+	<tr>
+	<td colspan="4" align="right">
 			<strong><?=truc('Долг по оплате', 'BalanceModule')?>, <?=$DATA['html_sign']?>:</strong>
-			&nbsp;<?=number_format($DATA['ord_summ_debt_in_country'], 2, '.', ' ')?>
-
-		</td></tr>
+	</td>
+	<td colspan="4" align="center">
+			<strong><?=number_format($DATA['ord_summ_debt_in_country'], 2, '.', ' ')?></strong>
+	</td>
+	</tr>
 </table>
 
  <h4><?=truc('Условия поставки', 'Forms')?>:</h4>
