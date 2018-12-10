@@ -173,3 +173,7 @@ ul.breadcrumbs li:nth-child(2).breadcrumbs__item{
 		overflow: auto;
 		min-width: 250px;
 	}
+
+	.content-page ul.certificatesList li::before{
+		content: none;
+	}
