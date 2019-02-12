@@ -1,6 +1,8 @@
  jqWar(document).ready(function () {
      //Делаем возвращение на предыдущую страницу - ХАК!
      setTimeout(function() { 
+        debugger; 
+         if(jqWar(".changePrice").length) return;
          if(jqWar( "a:contains('Вернуться назад')" ).length > 0) {
              console.log('Бросаем на предыдущую страницу');
              jqWar( "a:contains('Вернуться назад')" )[0].click()
